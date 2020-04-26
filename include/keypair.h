@@ -196,10 +196,9 @@ class keypair
      **/
 
     const public_key_type& public_key() const { return public_key_; }
-
-  private:
     public_key_type public_key_;
     private_key_type private_key_;
+  private:
 };
 
 } // namespace sodium
